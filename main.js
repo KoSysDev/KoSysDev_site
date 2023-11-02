@@ -251,9 +251,21 @@ if (typeof(Storage) !== "undefined") {
 }
 }
 
+//function pour cacher la vidéo de loading de la page
+function CacherLaVideo() {
+    // Attendre 5 secondes (5000 millisecondes) après le chargement de la page
+    window.addEventListener('DOMContentLoaded', function(){
+        setTimeout(function() {
+            const VideoContainer = document.querySelector(".laVideoContainer");
+            VideoContainer.classList.add("désactiveVideo");
+        }, 5000);
+    })
+}
+
 Animer();
 Sidebar();
 Contacter();
+CacherLaVideo();
 
 
 
