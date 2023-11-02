@@ -13,12 +13,13 @@
 </head>
 <body id="body">
     <header id="header" class="scroll-header">
-        <h1 id="KDA">KDA</h1>
+        <img src="./img/KoSys_logo.svg" alt="" id="KoSys_logo">
         <nav>
             <ul>
                 <li><a href="#Accueil" class="lien1">Accueil</a></li>
                 <li><a href="#Apropos" class="lien2">À Propos</a></li>
                 <li><a href="#Services" class="lien3">Services</a></li>
+                <li><a href="#Tarifs" class="lien5">Tarifs</a></li>
                 <li><a href="#Contact" class="lien4">Contact</a></li>
             </ul>
             <!-- div pour le dropdown pour les petits écrans-->
@@ -30,12 +31,17 @@
                   <li><a class="dropdown-item" href="#Accueil">Accueil</a></li>
                   <li><a class="dropdown-item" href="#Apropos">À Propos</a></li>
                   <li><a class="dropdown-item" href="#Services">Services</a></li>
+                  <li><a class="dropdown-item" href="#Tarifs">Tarifs</a></li>
                   <li><a class="dropdown-item" href="#Contact">Contact</a></li>
                 </ul>
             </div>              
         </nav>
     </header>
     <main>
+        <!-- Video de loading du site-->
+        <div class="laVideoContainer">
+            <video src="./img/KoSys_Loading.mp4" class="mp4" autoplay></video>
+        </div>
         <!-- section de l'accueil-->
         <section id="Accueil">
             <h3>Je Suis</h3>
@@ -255,7 +261,78 @@
                 </div>
             </div>
         </section>
-
+        <!-- #Section Tarifs-->
+        <section id="Tarifs">
+            <div id="packContainer">
+                <h1 class="TarifsFistTitle">Tarifs</h1>
+                <!-- forfait basique-->
+                <div class="forfait" id="basique">
+                <div class="TitrePack">
+                    <h2>Basique</h2>
+                    <h1>47 896</h1>
+                    <h6>XoF</h6>
+                </div>
+                <p>Caractéristiques du forfait :</p>
+                <ul>
+                    <li>Hébergement</li>
+                    <li>Nombre de Pages : Jusqu'à 5</li>
+                    <li>Support Technique : E-mail</li>
+                    <li>Intégration de Médias Sociaux</li>
+                    <li>Formulaire de Contact</li>
+                    <li>Optimisation pour Mobile </li>
+                </ul>
+                <a href="#Contact"><button class="btnTarif">Demander un devis</button></a>
+                </div>
+                <!-- forfait Standard-->
+                <div class="forfait" id="standard">
+                <div class="TitrePack">
+                    <h2>STANDARD</h2>
+                    <h1>85 735</h1>
+                    <h6>XoF</h6>
+                </div>
+                <p>Caractéristiques du forfait :</p>
+                <ul>
+                    <li>Hébergement</li>
+                    <li>Nom De Domaine(pour le 1er mois)</li>
+                    <li>Nombre de Pages : Jusqu'à 10</li>
+                    <li>Support Technique : E-mail</li>
+                    <li>Intégration de Médias Sociaux</li>
+                    <li>Statistiques de Site Web avec rapport mensuel</li>
+                    <li>Personnalisation de Design</li>
+                    <li>Formulaire de Contact</li>
+                    <li>Optimisation pour Mobile </li>
+                    <li>Blog</li>
+                </ul>
+                <a href="#Contact"><button class="btnTarif">Demander un devis</button></a>
+                </div>
+                <!-- forfait professionnel-->
+                <div class="forfait" id="professionnel">
+                <div class="TitrePack">
+                    <h2>PROFESSIONNEL</h2>
+                    <h1>115 250</h1>
+                    <h6>XoF</h6>
+                </div>
+                <p>Caractéristiques du forfait :</p>
+                <ul>
+                    <li>Hébergement</li>
+                    <li>Nom De Domaine(pour les 3 premiers mois)</li>
+                    <li>Nombre de Pages : illimité</li>
+                    <li>Proposition de Logo</li>
+                    <li>Support Technique : E-mail et téléphone</li>
+                    <li>Intégration de Médias Sociaux</li>
+                    <li>Statistiques de Site Web avec rapport mensuel</li>
+                    <li>Personnalisation de Design</li>
+                    <li>Formulaire de Contact</li>
+                    <li>Optimisation pour Mobile </li>
+                    <li>Blog</li>
+                    <li>Formation utilisation du site</li>
+                </ul>
+                <a href="#Contact"><button class="btnTarif">Demander un devis</button></a>
+                <img src="./img/badge-premium.png" alt="premium" class="badgePremium">
+                </div>
+                <video class="videoTarifs" src="./img/tarifs_video.mp4" autoplay loop></video>
+            </div>
+        </section>
         <!-- section de Contact-->
         <section id="Contact">
             <div id="ContainerBlock">
