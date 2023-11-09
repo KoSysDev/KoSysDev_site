@@ -231,7 +231,7 @@ function Contacter() {
 
         //Envoi du mail
         if(test1 && test2 && test3 && test4 && test5){
-            const MonEmail = "davidadekplovi10@gmail.com";
+            const MonEmail = "kosysdevelopmentagency@gmail.com";
             let mailto = `mailto:${MonEmail}?subject=${Sujet} &body=${Message}`
             location.href = mailto
         }
