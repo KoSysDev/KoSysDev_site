@@ -14,10 +14,6 @@ window.addEventListener('scroll', ()=>{
     lien3.classList.toggle("active",window.scrollY>0);
     lien4.classList.toggle("active",window.scrollY>0);
     KDA.classList.toggle("activeH1",window.scrollY>0);
-
-    //afficher le bouton scroll to top lorsque le scroll arrive à un moment
-    let btnScrollTop = document.querySelector(".BtnScrollTop");
-    btnScrollTop.classList.toggle("btnActive",window.scrollY>400);
 })
 
 //code pour animer mon nom
@@ -262,10 +258,19 @@ function CacherLaVideo() {
     })
 }
 
+function ScroolltoTop(){
+    window.addEventListener("scroll", function(){
+    //afficher le bouton scroll to top lorsque le scroll arrive à un moment
+    let btnScrollTop = document.querySelector(".BtnScrollTop");
+    btnScrollTop.classList.toggle("btnActive",window.scrollY>400);
+    })
+}
+
 Animer();
 Sidebar();
 Contacter();
 CacherLaVideo();
+ScroolltoTop();
 
 
 
