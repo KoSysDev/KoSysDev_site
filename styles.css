@@ -341,6 +341,64 @@ main{
     margin-left: 15%;
     margin-top: 12%;
 }
+
+/*code section fichiers*/
+#fichiers{
+    background-image: url("./img/back_img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    flex-direction: row;
+}
+#blinder{
+    background-color: #ffffff9e;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    p{
+        display: none;
+    }
+}
+#CV{
+    height: 200px;
+    width: 14%;
+    position: relative;
+    top: -70%;
+    left: 30%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#CV:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.CV_icone{
+    height: 120px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
+#Resume_Revue{
+    height: 200px;
+    width: 14%;
+    position: relative;
+    margin-top: -35%;
+    left: 58%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#Resume_Revue:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.Resume_icone{
+    height: 120px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
 /* Code CSS de la parie Services Commence à partir d'ici*/
 #Services{
     height: 800px;
@@ -814,6 +872,23 @@ footer p{
     #Accueil h3{
         margin-top: 20%;
     }
+
+     /*code section fichiers*/
+#CV{
+    width: 17%;
+}
+.CV_icone{
+    left: 24%;
+}
+
+#Resume_Revue{
+    width: 17%;
+    margin-top: -39%;
+
+}
+.Resume_icone{
+    left: 24%;
+}
     /* les hover des services*/
 .hoverText{
     margin-top: -50%;
@@ -1037,6 +1112,64 @@ footer p{
     .separation2{
         margin-top: 0%;
     }
+
+     /*code section fichiers*/
+#fichiers{
+    background-image: url("./img/back_img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    flex-direction: row;
+}
+#blinder{
+    background-color: #ffffff9e;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    p{
+        display: none;
+    }
+}
+#CV{
+    height: 180px;
+    width: 16%;
+    position: relative;
+    top: -70%;
+    left: 18%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#CV:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.CV_icone{
+    height: 95px;
+    position: absolute;
+    top: 17%;
+    left: 19%;
+}
+
+#Resume_Revue{
+    height: 180px;
+    width: 16%;
+    position: relative;
+    margin-top: -42%;
+    left: 60%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#Resume_Revue:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.Resume_icone{
+    height: 95px;
+    position: absolute;
+    top: 17%;
+    left: 19%;
+}
     /* les hover des services*/
 .hoverText{
     margin-top: -56%;
@@ -1520,6 +1653,64 @@ footer p{
         margin-left: 15%;
         margin-top: 5%;
     }
+
+    /*code section fichiers*/
+#fichiers{
+    background-image: url("./img/back_img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    flex-direction: row;
+}
+#blinder{
+    background-color: #ffffff9e;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    p{
+        display: none;
+    }
+}
+#CV{
+    height: 180px;
+    width: 18%;
+    position: relative;
+    top: -70%;
+    left: 12%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#CV:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.CV_icone{
+    height: 95px;
+    position: absolute;
+    top: 17%;
+    left: 17%;
+}
+
+#Resume_Revue{
+    height: 180px;
+    width: 18%;
+    position: relative;
+    margin-top: -53%;
+    left: 60%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#Resume_Revue:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.Resume_icone{
+    height: 95px;
+    position: absolute;
+    top: 17%;
+    left: 17%;
+}
 /* Code CSS de la parie Services Commence à partir d'ici*/
 #Services{
     height: 687px;
@@ -2226,6 +2417,64 @@ footer p{
     margin-top: 2%;
 }
 
+/*code section fichiers*/
+#fichiers{
+    background-image: url("./img/back_img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    flex-direction: row;
+}
+#blinder{
+    background-color: #ffffff9e;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    p{
+        display: none;
+    }
+}
+#CV{
+    height: 145px;
+    width: 25%;
+    position: relative;
+    top: -70%;
+    left: 12%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#CV:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.CV_icone{
+    height: 90px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
+#Resume_Revue{
+    height: 145px;
+    width: 25%;
+    position: relative;
+    margin-top: -76%;
+    left: 60%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#Resume_Revue:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.Resume_icone{
+    height: 90px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
 /* Code CSS de la parie Services Commence à partir d'ici*/
 #Services{
     height: 787px;
@@ -2906,6 +3155,64 @@ footer p{
     width: 60%;
     margin-left: 38%;
     margin-top: 3%;
+}
+
+/*code section fichiers*/
+#fichiers{
+    background-image: url("./img/back_img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    flex-direction: row;
+}
+#blinder{
+    background-color: #ffffff9e;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    p{
+        display: none;
+    }
+}
+#CV{
+    height: 100px;
+    width: 25%;
+    position: relative;
+    top: -70%;
+    left: 20%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#CV:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.CV_icone{
+    height: 55px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
+#Resume_Revue{
+    height: 100px;
+    width: 25%;
+    position: relative;
+    margin-top: -108%;
+    left: 58%;
+    border: 15px solid var(--bs-primary);
+    border-radius: 50%;
+}
+#Resume_Revue:hover{
+    background-color: var(--bs-primary);
+    border: 15px solid rgba(252, 248, 248, 0.718);
+}
+.Resume_icone{
+    height: 55px;
+    position: absolute;
+    top: 12%;
+    left: 15%;
 }
 
 /* Code CSS de la parie Services Commence à partir d'ici*/
